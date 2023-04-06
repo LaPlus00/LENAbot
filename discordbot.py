@@ -28,7 +28,7 @@ async def on_message(message):
     if message.content.startswith(f'{PREFIX} 도움말'):
         embed = disscord.Embed(
             title = '명령어 목록',
-            description = '아직 공부하는 중이에요!'\n'더 완벽해질 수 있도록 노력할게요!',
+            description = '아직 공부하는 중이에요!\n더 완벽해질 수 있도록 노력할게요!',
             colour = discord.Colour.blue(),
         )
         embed.add_field(name = '디맥선곡기', value = '오늘 플레이할 디맥 곡을 추천드릴게요!', inline=False)
