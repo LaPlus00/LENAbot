@@ -25,7 +25,7 @@ async def on_message(message):
     if message.content == f'{PREFIX}call':
         await message.channel.send("callback!")
 
-    if message.content.startswith(c 도움말'):
+    if message.content.startswith(f'{PREFIX} 도움말'):
             embed = discord.Embed(
             title = '명령어 목록',
             description = '아직 공부하는 중이에요! 더 완벽해질 수 있도록 노력할게요!.',
