@@ -32,7 +32,6 @@ async def on_message(message):
             colour = discord.Colour.blue()
         )
         embed.add_field(name = '디맥선곡기', value = '오늘 플레이할 디맥 곡을 추천해드릴게요!', inline = False)
-
         await message.channel.send(embed=embed)
         
     if message.content.startswith(f'{PREFIX} 심심해'):
